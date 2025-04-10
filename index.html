@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AWS Live Course Summary</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; padding: 0; }
+    header { background: #232f3e; color: white; padding: 20px 0; text-align: center; }
+    section { padding: 20px; }
+    h2 { color: #232f3e; cursor: pointer; }
+    .day { background: white; margin: 10px 0; padding: 15px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    .day p { display: none; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AWS Live Course Summary</h1>
+    <p>22-Day Practical Cloud Learning Journey</p>
+  </header>
+  <section>
+    <div class="day"><h2 onclick="toggle(this)">Day 1: Introduction to AWS</h2><p>Overview of AWS services and infrastructure. (110 mins)</p></div>
+    <div class="day"><h2 onclick="toggle(this)">Day 2: EC2</h2><p>Launching and configuring virtual servers. (110 mins)</p></div>
+    <div class="day"><h2 onclick="toggle(this)">Day 3: Security Group & NACL</h2><p>Managing access and network security. (117 mins)</p></div>
+    <div class="day"><h2 onclick="toggle(this)">Day 4: NAT Gateway</h2><p>Secure internet access for private instances. (100 mins)</p></div>
+    <div class="day"><h2 onclick="toggle(this)">Day 5: Manual Backup & Recovery</h2><p>Snapshots and recovery methods. (110 mins)</p></div>
+    <div class="day"><h2 onclick="toggle(this)">Day 6: AWS Backup</h2><p>Centralized backup management. (100 mins)</p></div>
+    <div class="day"><h2 onclick="toggle(this)">Day 7: EBS Volume</h2><p>Persistent block storage. (123 mins)</p></div>
+    <div class="day"><h2 onclick="toggle(this)">Day 8: EFS</h2><p>Scalable file storage service. (74 mins)</p></div>
+    <div class="day"><h2 onclick="toggle(this)">Day 9: IAM</h2><p>Managing user access and permissions. (78 mins)</p></div>
+    <div class="day"><h2 onclick="toggle(this)">Day 10: VPC Peering</h2><p>Resource sharing across VPCs. (118 mins)</p></div>
+    <div class="day"><h2 onclick="toggle(this)">Day 11: Load Balancer</h2><p>Traffic distribution across servers. (94 mins)</p></div>
+    <div class="day"><h2 onclick="toggle(this)">Day 12: Load Balancer Advanced</h2><p>Optimizing load balancer configurations. (122 mins)</p></div>
+    <div class="day"><h2 onclick="toggle(this)">Day 13: CloudTrail</h2><p>Logging AWS account activity. (73 mins)</p></div>
+    <div class="day"><h2 onclick="toggle(this)">Day 14: Auto Scaling</h2><p>Auto resource adjustments. (107 mins)</p></div>
+    <div class="day"><h2 onclick="toggle(this)">Day 15: S3 Introduction</h2><p>Object storage basics. (66 mins)</p></div>
+    <div class="day"><h2 onclick="toggle(this)">Day 16: S3 Advanced</h2><p>Versioning, lifecycle rules, and security. (67 mins)</p></div>
+    <div class="day"><h2 onclick="toggle(this)">Day 17: S3 Gateway Endpoint</h2><p>Private access to S3 from VPC. (78 mins)</p></div>
+    <div class="day"><h2 onclick="toggle(this)">Day 18: CloudFront</h2><p>Low-latency content delivery. (106 mins)</p></div>
+    <div class="day"><h2 onclick="toggle(this)">Day 19: RDS</h2><p>Managed relational databases. (112 mins)</p></div>
+    <div class="day"><h2 onclick="toggle(this)">Day 20: DynamoDB & Lambda</h2><p>Serverless computing and NoSQL DB. (83 mins)</p></div>
+    <div class="day"><h2 onclick="toggle(this)">Day 21: CloudWatch / NLB</h2><p>Monitoring tools and network load balancing. (127 mins)</p></div>
+    <div class="day"><h2 onclick="toggle(this)">Day 22: AWS Mega Project</h2><p>Capstone implementation of AWS skills.</p></div>
+  </section>
+
+  <script>
+    function toggle(header) {
+      const paragraph = header.nextElementSibling;
+      paragraph.style.display = paragraph.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+</body>
+</html>
