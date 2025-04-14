@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      background: #444;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: #fff;
+      padding: 0 20px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      background: url('https://source.unsplash.com/1600x600/?tech,code') no-repeat center center/cover;
+      color: white;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    .container {
+      padding: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 300px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <div style="background-color: #e3f2fd; text-align: center; padding: 10px; font-size: 1.2rem;">
+    Hello, this is Phalachandra
+  </div>
+
+  <header>
+    <h1>My Portfolio</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Projects</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <div>Welcome to My Creative Space</div>
+  </section>
+
+  <div class="container">
+    <div class="card">
+      <h2>Project One</h2>
+      <p>This is a sample project description.</p>
+    </div>
+    <div class="card">
+      <h2>Project Two</h2>
+      <p>This is another sample project description.</p>
+    </div>
+    <div class="card">
+      <h2>About Me</h2>
+      <p>I'm a web developer passionate about clean code and UX.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
